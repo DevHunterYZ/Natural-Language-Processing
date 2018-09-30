@@ -1,5 +1,4 @@
 from nltk.corpus import stopwords
-from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 example_sent = "Bu, durdurma kelimelerini filtrelemeyi gösteren örnek bir cümledir."
