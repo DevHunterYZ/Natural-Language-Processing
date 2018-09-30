@@ -4,8 +4,8 @@ from nltk.tokenize import PunktSentenceTokenizer
 
 custom_sent_tokenizer = PunktSentenceTokenizer(train_text)
 tokenized = custom_sent_tokenizer.tokenize(sample_text)
-train_text = state_union.raw("C:/Users/user/Desktop/2017Balkon.txt")
-sample_text = state_union.raw("C:/Users/user/Desktop/2018Balkon.txt")
+train_text = state_union.raw("2017Balkon.txt")
+sample_text = state_union.raw("2018Balkon.txt")
 def process_content():
     try:
         for i in tokenized[:5]:
